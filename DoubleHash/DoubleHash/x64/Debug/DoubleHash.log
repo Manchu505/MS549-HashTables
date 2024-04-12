@@ -1,0 +1,18 @@
+﻿  Main.cpp
+C:\Users\Wazzu\source\repos\DoubleHash\DoubleHash\DoubleHash.h(85,33): error C2228: left of '.empty' must have class/struct/union
+  (compiling source file 'Main.cpp')
+  C:\Users\Wazzu\source\repos\DoubleHash\DoubleHash\DoubleHash.h(85,33):
+  type is 'const _Ty1'
+          with
+          [
+              _Ty1=int
+          ]
+  C:\Users\Wazzu\source\repos\DoubleHash\DoubleHash\DoubleHash.h(85,33):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Wazzu\source\repos\DoubleHash\DoubleHash\Main.cpp(17,25):
+  	see reference to class template instantiation 'HashTable<int,int>' being compiled
+  	C:\Users\Wazzu\source\repos\DoubleHash\DoubleHash\DoubleHash.h(83,10):
+  	while compiling class template member function 'void HashTable<int,int>::display(void) const'
+  		C:\Users\Wazzu\source\repos\DoubleHash\DoubleHash\Main.cpp(30,22):
+  		see the first reference to 'HashTable<int,int>::display' in 'main'
+  
